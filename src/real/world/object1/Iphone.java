@@ -12,29 +12,28 @@ package real.world.object1;
 public class Iphone extends Phone {            
     
     @Override
-    public void getCarrier(){
+    public final void getCarrier(){
         System.out.println("AT&T");
     }
 
-
     @Override
-    public void dataUsage() {
+    public final void dataUsage() {
         System.out.println("No data usage.");
     }
 
     @Override
-    public void simCardId() {
+    public final void simCardId() {
         System.out.println("No sim card in phone.");
     }
 
    
     @Override
-    public void powerOn() {
+    public final void powerOn() {
         System.out.println("device powering on...");
     }
 
     @Override
-    public void powerOff() {
+    public final void powerOff() {
         System.out.println("device powering off");
     }
 
