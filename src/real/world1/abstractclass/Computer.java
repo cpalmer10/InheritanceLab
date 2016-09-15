@@ -3,16 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package realworld1interface;
+package real.world1.abstractclass;
 
 /**
  *
  * @author Chris
  */
-public class Laptop implements Machine {
-        
+public class Computer extends Machine{
+
+    
+    
     @Override
-    public double sendBytes(){   
+    public double sendBytes() {
         return 0;
     }
 
@@ -20,4 +22,5 @@ public class Laptop implements Machine {
     public double recieveBytes() {
         return 0;
     }
+    
 }

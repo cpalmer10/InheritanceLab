@@ -3,17 +3,25 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package realworld1interface;
+package real.world1.concreteclass;
 
 /**
  *
  * @author Chris
  */
-public abstract class Computer implements Machine {
+public class Laptop extends Machine{
+    private int screenSize;
     private String make;
     private String model;
-    private String typeOf;
 
+    public int getScreenSize() {
+        return screenSize;
+    }
+
+    public void setScreenSize(int screenSize) {
+        this.screenSize = screenSize;
+    }
+            
     public String getMake() {
         return make;
     }
@@ -29,24 +37,4 @@ public abstract class Computer implements Machine {
     public void setModel(String model) {
         this.model = model;
     }
-
-    public String getTypeOf() {
-        return typeOf;
-    }
-
-    public void setTypeOf(String typeOf) {
-        this.typeOf = typeOf;
-    }
-    
-    
-    @Override
-    public double sendBytes() {
-        return 0;
-    }
-
-    @Override
-    public double recieveBytes() {
-        return 0;
-    }
-    
 }

@@ -3,12 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package realworld1concrete;
+package real.world1.interfaceclass;
 
 /**
  *
  * @author Chris
  */
-public class Machine {
+public interface Machine {
+    
+    public abstract double sendBytes();
+    public abstract double recieveBytes();
     
 }

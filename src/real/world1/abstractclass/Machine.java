@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package realworld1abstract;
+package real.world1.abstractclass;
 
 /**
  *
@@ -28,7 +28,6 @@ public abstract class Machine {
     public void setPowerOff(String powerOff) {
         this.powerOff = powerOff;
     }
-    
     
     public abstract double sendBytes();
     public abstract double recieveBytes();

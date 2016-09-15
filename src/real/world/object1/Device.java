@@ -3,15 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package realworld1interface;
+package real.world.object1;
 
 /**
  *
  * @author Chris
  */
-public interface Machine {
-    
-    public abstract double sendBytes();
-    public abstract double recieveBytes();
+public interface Device {
+
+    public abstract void powerOn();
+    public abstract void powerOff();
     
 }
