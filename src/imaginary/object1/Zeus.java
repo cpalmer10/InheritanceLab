@@ -31,7 +31,7 @@ public class Zeus extends MythicalFigure{
     
     
     @Override
-    public void sayPrayer() {
-        System.out.println("Zeus... God of thunder...");
+    public void usePower() {
+        System.out.println("Zeus called thunder!");
     }
 }
